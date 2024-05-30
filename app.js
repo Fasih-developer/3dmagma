@@ -343,7 +343,7 @@ scroller: `.main`,
 start: `top top`,
 end: `250% top`,
 });
-}
+};
 function page6(){
   var clutter2 = "";
   document.querySelector('.page-6 p').textContent.split(' ').forEach(function(deps){
@@ -595,9 +595,6 @@ gsap.to(".page7-cir",{
   },
   scale:1.5
 })
-
-
-
 locomotive();
 page2();
 canvas();
