@@ -33,8 +33,9 @@ function page2(){
     scrollTrigger:{
       trigger: ".page-2 p",
       scroller:'.main',
-      start:'-160% 20%',
-      end:'top 30%',
+      start:'-140% 20%',
+      // markers :true,
+      end:'top 20%',
       scrub:.5,
     },
     stagger:.2,
@@ -200,8 +201,9 @@ function page4(){
     scrollTrigger:{
       trigger: ".page-4 p",
       scroller:'.main',
-      start:'-100% 20%',
-      end:'top 30%',
+      // markers :true,
+      start:'-90% 20%',
+      end:'center 35%',
       scrub:.5,
     },
     stagger:.2,
@@ -355,8 +357,8 @@ function page6(){
     scrollTrigger:{
       trigger: ".page-6 p",
       scroller:'.main',
-      start:'-92% 30%',
-      // markers:true,
+      start:'-85% 30%',
+      // markers :true,
       end:'top 30%',
       scrub:.5,
     },
@@ -584,17 +586,20 @@ start: `top top`,
 end: `250% top`,
 });
 }
-gsap.to(".page7-cir",{
+
+gsap.to('.page-9', {
   scrollTrigger:{
-    trigger:'.page7-cir',
-    start:'-100% center',
-    end:'bottom top',
-    markers :true,
+    trigger: ".page-9-inner",
     // scroller:'.main',
-    scrub:.5
+    start:'-85% 30%',
+    markers :true,
+    end:'top 30%',
+    scrub:.5,
   },
-  scale:1.5
+  stagger:.2,
+  color:"#fff",
 })
+
 locomotive();
 page2();
 canvas();
