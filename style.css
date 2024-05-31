@@ -260,6 +260,7 @@ nav img{
     color: white;
     font-weight: 300;
 }
+/**---------------------page-8--------------------------------------***/
 .page-8{    
     width: 100vw;
     height: 100vh;
@@ -300,6 +301,7 @@ nav img{
     background-color: white;
     color: #083FDC;
 }
+/**---------------------page-9--------------------------------------***/
 .page-9{
     height: 87vh;
     width: 100vw;
@@ -307,7 +309,6 @@ nav img{
     align-items: center;
     justify-content: center;
     background-image: linear-gradient(180deg, #0B3CCE, #083FDC);
-    margin-top: -2vw;
     flex-wrap: wrap;
 }
 .page-9-inner{
@@ -356,4 +357,100 @@ nav img{
     to{
         transform: translatex(-100%);
     }
+}
+/**---------------------page-11--------------------------------------***/
+#page11{
+    position: relative;
+    height: 120vh;
+    width: 100vw;
+    background-color: #fff;
+}
+#page11>h1{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    font-size: 4vw;
+    color: #000;
+    font-weight: 300;
+}
+.page11-inner{
+    display: flex;
+    top: 18%;
+    position: relative;
+    margin-bottom: 2vw;
+    height: 24%;
+    width: 100%;
+}
+.left11{
+    position: relative;
+    height: 100%;
+    width: 40%;
+    left: 5%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.left11>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.right11{
+    padding-top: 5vw;
+    color: #000;
+    left: 50%;
+    position: absolute;
+    height: 100%;
+    width: 50%;
+}
+.right11>h4{
+    font-weight: 200;
+}
+.right11>h1{
+    font-weight: 300;
+    font-size: 2vw;
+}
+/**---------------------page-14--------------------------------------***/
+#page14{
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+    background-color: #000;
+}
+.page14-inner{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0vw 5vw;
+    font-family: a;
+    height: 33.3%;
+    width: 100%;
+    color: #fff;
+    border-top: .5px solid #ffffff5c;
+    border-bottom: .5px solid #ffffff48;
+}
+.page14-inner>i{
+    font-weight: 100;
+    font-size: 2.4vw;
+    position: relative;
+    z-index: 9999;
+}
+.page14-inner>h1{
+    font-size: 3vw;
+    font-weight: 100;
+    position: relative;
+    z-index: 9999;
+}
+.center14{
+    height: 0%;
+    width: 100%;
+    background-color: #0a3cce;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    transition: all ease .5s;
+}
+.page14-inner:hover .center14{
+    height: 100%;
 }

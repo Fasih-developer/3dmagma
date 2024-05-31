@@ -587,19 +587,6 @@ end: `250% top`,
 });
 }
 
-gsap.to('.page-9', {
-  scrollTrigger:{
-    trigger: ".page-9-inner",
-    // scroller:'.main',
-    start:'-85% 30%',
-    markers :true,
-    end:'top 30%',
-    scrub:.5,
-  },
-  stagger:.2,
-  color:"#fff",
-})
-
 locomotive();
 page2();
 canvas();
