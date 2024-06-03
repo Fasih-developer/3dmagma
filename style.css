@@ -20,11 +20,8 @@ body{
     color: white;
 }
 .main{
-    /* overflow: hidden; */
+    overflow: hidden;
     width: 100vw;
-    overflow: scroll;
-    overflow-y: auto;
-    overflow-x: hidden;
 }
 header{
     background-color: #083FDC;
@@ -266,6 +263,7 @@ nav img{
     height: 100vh;
     overflow: hidden;
     display: flex;
+    background-color: #093DCC;
     align-items: center;
     justify-content: center;
     position: relative;
@@ -439,7 +437,7 @@ nav img{
     font-size: 3vw;
     font-weight: 100;
     position: relative;
-    z-index: 9999;
+    z-index: 99;
 }
 .center14{
     height: 0%;
@@ -453,4 +451,20 @@ nav img{
 }
 .page14-inner:hover .center14{
     height: 100%;
+}
+.load{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #083FDC;
+    transition: all ease 0.5;
+}
+.load h1{
+    font-size: 7vw;
+    font-weight: 400;
+    color: white;
 }

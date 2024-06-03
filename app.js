@@ -586,7 +586,9 @@ start: `top top`,
 end: `250% top`,
 });
 }
-
+window.addEventListener('load', function(){
+  document.querySelector('.load').style.display = 'none';
+})
 locomotive();
 page2();
 canvas();

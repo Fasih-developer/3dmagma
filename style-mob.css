@@ -1,0 +1,185 @@
+header{
+    background-color: #083FDC;
+    height: 18.5vw;
+    position: relative;
+    z-index: 999;
+}
+nav{
+    height: 16vw;
+}
+nav img{
+    height: 14.5vw;
+    width: 14.5vw;
+}
+.nav-buttons{
+    width: 27%;
+}
+.nav-buttons button:first-child{
+    display: none;
+}
+.nav-buttons button:nth-child(2){
+    height: 6.7vw;
+    width: 12vw;
+    font-size: 4.6vw;
+}
+.hero{
+    margin-top: 0;
+}
+.hero video{
+    margin-top: -10vw;
+}
+.hero-bottom{
+    margin-top: -60.3vh;
+    margin-left: 5.3vw;
+    height: 55vh;
+    width: 85vw;
+}
+.hero-bottom h1{
+    font-size: 12.8vw;
+    line-height: 12.0vw;
+}
+.hero-p{
+    height: 52%;
+    flex-wrap:wrap ;
+}
+.hero-p p{
+    font-weight: 300;
+    font-size: 5vw;
+    width: 90%;
+}
+.hero-p button{
+    height: 9.3vw;
+    width: 33vw;
+    font-size: 3.4vw;
+    font-weight:400;
+}
+/**---------------------page-2--------------------------------------***/
+.page-2 p{
+    height: 40%;
+    width: 85%;
+    font-size: 8.5vw;
+    line-height: 10vw;
+}
+/**---------------------page-4--------------------------------------***/
+.page-4 p{
+    height: 60%;
+    width: 85%;
+    font-size: 8.5vw;
+    line-height: 10vw;
+}
+/**---------------------page-6--------------------------------------***/
+.page-6 p{
+    height: 45%;
+    width: 82%;
+    font-size: 8.5vw;
+    line-height: 10vw;
+}
+/**---------------------page-7--------------------------------------***/
+.page-7{
+    height: 90vh;
+    width: 90vw;
+}
+.page7-cir{
+    height: 75vw;
+    width: 75vw;
+    left: 55%;
+}
+.page7-cir-inner{
+    height: 60%;
+    width: 60%;
+}
+.page7-cir-inner p{
+    font-size: 3vw;
+    margin-top: -15vw;
+}
+.page7-cir-inner h1{
+    margin-top: 7vw;
+    font-size: 6.5vw;
+}
+/**---------------------page-8--------------------------------------***/
+.page-8{    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page-8 video{
+    margin-top: -32vw;
+    height: 90%;
+    width: 90%;
+}
+.page-8-bottom{
+    top: 74%;
+    width: 60vw;
+    left: 21%;
+}
+.page-8-bottom h1{
+    font-size: 9vw;
+}
+.page-8-bottom button{
+    height: 8.5vw;
+    margin-top: 2vw;
+    width: 31.2vw;
+    font-size: 3.1vw;
+}
+/**---------------------page-11--------------------------------------***/
+#page11{
+    height: 100vh;
+}
+#page11>h1{
+    font-size: 6vw;
+}
+.left11{
+    height: 70%;
+    width: 45%;
+}
+.right11{
+    left: 57%;
+    width: 40%;
+}
+.right11>h4{
+    font-size: 3vw;
+    font-weight: 200;
+}
+.right11>h1{
+    font-weight: 300;
+    font-size: 4vw;
+}
+/**---------------------page-9--------------------------------------***/
+.page-9-inner{
+    margin-top: 15vw;
+    height: 35%;
+    justify-content: center;
+    width: 60%;
+}
+.page-9-inner h1{
+    font-size: 12vw;
+    width: 95%;
+    text-align: center;
+}
+.page-9-inner p{
+    text-align: center;
+    font-size: 4.1vw;
+    width: 97%;
+}
+/*---------------------------marque----------------------------------*/
+.marque img{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    height: 15vw;
+    width: 25vw;
+}
+/**---------------------page-14--------------------------------------***/
+#page14{
+    height: 30vh;
+}
+.page14-inner>i{
+    font-size: 5.4vw;
+}
+.page14-inner>h1{
+    font-size: 5vw;
+}
+.load h1{
+    font-size: 9vw;
+}
